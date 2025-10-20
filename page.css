@@ -1,0 +1,16 @@
+body{
+background-color: aquamarine;
+
+}
+h1{
+text-align: center;
+}
+a:active{
+color: blue;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: green;
+}
