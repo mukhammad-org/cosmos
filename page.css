@@ -1,16 +1,17 @@
 body{
-background-color: aquamarine;
-
+    margin:0;
 }
 h1{
-text-align: center;
+text-align:center;
 }
-a:active{
-color: blue;
+.nav{
+    background-color:rgb(82, 104, 122);
+    width:100%;
+    height:80px;
+    word-spacing:20px;
 }
-a:visited{
-    color: red;
-}
-a:hover{
-    color: green;
+.first
+a{
+    text-decoration: none;
+    color:black;
 }
