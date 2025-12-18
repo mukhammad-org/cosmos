@@ -1,5 +1,5 @@
 body{
-    margin:15px;
+    margin:0px;
 }
 h1{
 margin-top:20px;
@@ -10,7 +10,7 @@ font-family:arial;
 background-color:hsl(4, 0%,99%);
 width:100%;
 height:150px;
-box-shadow:2px 2px 7px grey;
+box-shadow:0px 0px 19px grey;
 border-radius:20px;
 }
 a{
@@ -18,8 +18,6 @@ a{
     color:black;
 }
 p{
-    display:inline-block;
-    justify-content: space-between;
     margin-right:20px;
     margin-left:20px;
     margin-bottom:20px;
@@ -30,12 +28,12 @@ p{
 .destination-rockets{
   text-align:right;
   position:relative;
-  bottom:85px;
+  bottom:130px;
+
 }
-p:hover{
-color:yellow;
+a:hover{
+color:rgb(226, 0, 0);
 cursor:pointer;
-border-color:solid red;
 }
 
 
