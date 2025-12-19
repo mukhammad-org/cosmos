@@ -36,14 +36,14 @@ section{
     background-color: black;
     height:340px;
     width:270px;
-    border:3px;
+    border:1px;
     border-color:rgb(255, 255, 255);
     margin-top:20px;
     display:inline-block;
     margin-right:20px;
-    box-shadow:3px 4px 5px white;
+    box-shadow:1px 1px 5px white;
     border-radius:20px;
-    margin-left:2px;
+    margin-left:25px;
 }
 img{
     border-radius:20px;
@@ -76,4 +76,11 @@ button{
 }
 button:hover{
     background-color: rgb(255, 255, 255);
+}
+section::after {
+    content:"";
+    display:block;
+    height:400px;
+    width:340px;
+    cursor:pointer;
 }
