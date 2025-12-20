@@ -1,5 +1,5 @@
 body{
-    margin-top:40px;
+    margin-top:90px;
 }
 section{
  margin:auto;
@@ -35,4 +35,10 @@ button:hover{
     cursor:pointer;
     background-color: rgb(128, 84, 27);
     color:aquamarine;
+}
+    section:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+    transition:0.9s ease-in-out;
+    transform:scale(1.1);
 }
