@@ -1,0 +1,13 @@
+section{
+    height:300px;
+  width:80%;
+    margin:auto;
+    display:block;
+    border:1px solid black;
+    margin-bottom:30px;
+    padding:10px;
+    transform:blur(2px);
+}
+section:hover{
+    background-color:rgba(116, 102, 102, 0.2);
+}
