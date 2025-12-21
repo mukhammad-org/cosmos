@@ -1,6 +1,6 @@
 body{
     margin:0px;
-    background-color: rgb(181, 191, 191);
+    background-color: hsla(113, 20%, 42%, 0.628);
 }
 h1{
 margin-top:2px;
@@ -12,12 +12,12 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 font-size:40px;
 }
 .nav{
-background-color:hsla(0, 3%, 94%, 0.589);
-width:100%;
-height:20hv;
-box-shadow:2px 0px 19px grey;
+width:95%;
+background-color:hsla(110, 6%, 58%, 0.826);
+box-shadow:0px 10px 12px rgba(0, 128, 0, 0.403);
 border-radius:20px;
 text-align:right;
+margin:auto;
 
 }
 a{
@@ -40,7 +40,7 @@ cursor:pointer;
 }
 section{
     background-color: rgba(124, 124, 124, 0);
-    height:340px;
+    height:370px;
     width:270px;
     border:1px;
     border-color:rgb(255, 255, 255);
@@ -56,7 +56,7 @@ img{
     filter:contrast(100%);
 }
 h2,p{
-    color:white;
+    color:rgb(0, 0, 0);
     margin-top:10px;
 }
 h2{
@@ -93,4 +93,12 @@ h1:hover{
     cursor:pointer;
     color:rgb(252, 9, 9);
     transition:0.3s ease;
+}
+iframe{
+   width:100%;
+   margin-top:20px;
+   border:2px solid black;
+}
+.seventh{
+    margin-left:20px;
 }
