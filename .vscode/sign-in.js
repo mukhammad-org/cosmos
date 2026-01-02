@@ -1,4 +1,8 @@
 const name = "Muhammad";
-if name == ("Muhammad");
- else
- console.log("Please Enter Again");
+if (name == ("Muhammad"){
+    console.log("Welcome Muhammad")
+}
+ else;{}
+
+ ]
+ 
