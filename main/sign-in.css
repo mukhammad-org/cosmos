@@ -1,3 +1,14 @@
 body{
-    background-color: rgb(81, 81, 98);
+    background-color: rgb(159, 159, 189);
+}
+main{
+    border: 2px solid black;
+    height:400px;
+    width:40%;
+    margin:auto;
+    margin-top:100px;
+    border-radius:20px;
+}
+label{
+    
 }
