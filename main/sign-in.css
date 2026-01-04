@@ -10,5 +10,8 @@ main{
     border-radius:20px;
 }
 label{
-    
+   margin-top:20px; 
+   display:block;
+   display:flex;
+   flex-direction:column;
 }
